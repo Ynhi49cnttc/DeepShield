@@ -1,47 +1,8 @@
-# DeepShield Demo - Full Stack Application
+# DeepShield Demo 
 
 A research demonstration website for **DeepShield: Proactive Defense Against Deepfake Generation**.
 
 DeepShield is an academic research project that protects facial images from being misused by deepfake generation models through adversarial perturbation techniques.
-
-## 🏗️ Project Structure
-
-```
-deepshield-demo/
-├── frontend/               # React frontend (Vite)
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   │   ├── Header.jsx
-│   │   │   ├── ImageUpload.jsx
-│   │   │   ├── ResultVisualization.jsx
-│   │   │   ├── MetricsDisplay.jsx
-│   │   │   └── ProcessingSteps.jsx
-│   │   ├── services/      # API services
-│   │   │   └── api.js
-│   │   ├── App.jsx        # Main app component
-│   │   ├── main.jsx       # Entry point
-│   │   └── index.css      # Styles
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-│
-├── backend/               # Node.js + Express backend
-│   ├── src/
-│   │   ├── routes/       # API routes
-│   │   │   └── image.routes.js
-│   │   ├── controllers/  # Request handlers
-│   │   │   └── image.controller.js
-│   │   ├── services/     # Business logic
-│   │   │   └── deepshield.service.js
-│   │   ├── middleware/   # Middleware
-│   │   │   └── upload.middleware.js
-│   │   └── server.js     # Express app
-│   ├── uploads/          # Uploaded images storage
-│   ├── package.json
-│   └── .env
-│
-└── README.md
-```
 
 ## 🚀 Features
 
@@ -71,7 +32,7 @@ deepshield-demo/
 ### 1. Clone/Download the Project
 
 ```bash
-cd deepshield-demo
+cd deepshield
 ```
 
 ### 2. Backend Setup
